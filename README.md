@@ -33,7 +33,8 @@ This is an employee directory with React. This assignment required you to break 
 - [Questions](#questions)
 
 
- ## Questions
+ ## Questions 
+ Deployed application :skills: 
 :mailbox: Contact with any questions:
  [<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:merikettapearl212@gmail.com)
  <br></br> 
