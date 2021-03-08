@@ -36,9 +36,7 @@ This is an employee directory with React. This assignment required you to break 
  ## Questions
 :mailbox: Contact with any questions:
  [<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:merikettapearl212@gmail.com)
- 
- <br>
- </br> 
+ <br></br> 
 
 #### Powered by :coffee: and <img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white"/> 
 Thanks for stopping by! :vulcan_salute:
