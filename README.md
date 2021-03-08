@@ -20,7 +20,7 @@
 ## Description
 This is an employee directory with React. This assignment required you to break up your application's UI into components, manage component state, and respond to user events. This application allows you to view your entire employee directory at once so that you have quick access to view non-sensitive data about other employees.
 
-## Heroku link:
+## Heroku link
 <!-- [Employee Directory App](https://protected-lake-51847.herokuapp.com/) -->
 
 #### Screenshot of example:
