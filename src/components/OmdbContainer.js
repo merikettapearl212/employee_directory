@@ -1,6 +1,6 @@
-import Body from "../components/Body";
+import Card from "../components/Card";
 import Header from "../components/Header";
-import Container from "./Container";
+import Container from "../components/Container"
 import Search from "../components/Search";
 import testUsers from "../testdata.json";
 import React, { Component } from "react";
@@ -15,11 +15,11 @@ class OmdbContainer extends Component {
 };
   // When this component mounts, search for the movie "The Matrix"
   componentDidMount() {
-    this.getUsers();
+    this.getEmployees();
   }
 
-  getUsers() {
-    API.getUsers()
+  getEmployees() {
+    API.getEmployees()
       .then(res => this.setState({ users: res.data.results }))
       .catch(err => console.log(err));
   };
@@ -40,15 +40,18 @@ class OmdbContainer extends Component {
 
 render() {
     return (
-      <Container>
-        <Header />
-        <Body users={this.state.users} />
-            <Search
-                value={this.state.search}
-                handleInputChange={this.handleInputChange}
-                handleFormSubmit={this.handleFormSubmit}
-              />
-      </Container>
+      <div>
+            <Header backgroundImage="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"/>
+            <Container>
+                <Search
+                        value={this.state.search}
+                        handleInputChange={this.handleInputChange}
+                        handleFormSubmit={this.handleFormSubmit}
+                    />
+                <Card users={this.state.users} />
+                    
+              </Container>
+      </div>
     );
   }
 }

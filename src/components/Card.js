@@ -1,6 +1,4 @@
-
-
-function Body({users}) {
+function Card({users}) {
     return (
         <div className="card">
             <div className="card-body">
@@ -8,7 +6,8 @@ function Body({users}) {
                 {users.map(user => <p className="card-text">{user.name.first} {user.name.last}</p>)}
             </div>
         </div>
+        
     );
 }
 
-export default Body;
+export default Card;
