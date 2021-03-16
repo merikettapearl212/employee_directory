@@ -34,6 +34,9 @@ Deployed application :rocket:
 - [Questions](#questions)
 
 
+## License
+<img src="https://img.shields.io/github/license/merikettapearl212/employee_directory?style=for-the-badge" />
+
  ## Questions 
 
 :mailbox: Contact with any questions:
