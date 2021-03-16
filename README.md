@@ -22,10 +22,10 @@ This is an employee directory with React. This assignment required you to break 
 
 ## Heroku link
 Deployed application :rocket: 
-<!-- [Employee Directory App](https://protected-lake-51847.herokuapp.com/) -->
+[Employee Directory App](https://employee-directory231.herokuapp.com/)
 
 #### Screenshot of example:
-<img src="images/screencapture-employee-directory231-herokuapp-2021-03-16-00_11_53.png" width="400" height="200">
+<img src="src/images/screencapture-employee-directory231-herokuapp-2021-03-16-00_11_53.png" width="400" height="200">
 
 ## Table of Contents
 - [Description](#description)
