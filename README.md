@@ -25,7 +25,7 @@ Deployed application :rocket:
 [Employee Directory App](https://employee-directory231.herokuapp.com/)
 
 #### Screenshot of example:
-<img src="images/screencapture-employee-directory231-herokuapp-2021-03-16-00_11_53.png" width="800" height="200">
+<img src="images/screencapture-employee-directory231-herokuapp-2021-03-16-00_11_53.png" width="500" height="400">
 
 ## Table of Contents
 - [Description](#description)
