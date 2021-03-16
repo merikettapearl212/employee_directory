@@ -6,6 +6,8 @@ import Filter from "../components/Filter"
 // import testUsers from "../testdata.json";
 import React, { Component } from "react";
 import API from "../utils/API";
+import "../pages/index.css"
+
 
 
 class OmdbContainer extends Component {
@@ -76,7 +78,7 @@ class OmdbContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className="main-color">
         <Header backgroundImage="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"/>
         <Container>
         <Search
