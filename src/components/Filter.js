@@ -1,11 +1,11 @@
-function Filter ({sortAscending, sortDescending}){
+function Filter ({sortAscend, sortDescend}){
    
       
     return (
 <div className="container mb-4">
 <div className="float-right ">
-  <button onClick={sortAscending} className="btn btn-secondary shadow" >Names A-Z</button> {""}
-  <button onClick={sortDescending} className="btn btn-secondary shadow" >Names Z-A</button>
+  <button onClick={sortAscend} className="btn btn-secondary shadow" >Names A-Z</button> {""}
+  <button onClick={sortDescend} className="btn btn-secondary shadow" >Names Z-A</button>
 
 </div>
 </div>

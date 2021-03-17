@@ -55,7 +55,7 @@ class OmdbContainer extends Component {
   };
   
 
-  sortAscending = (e) => {
+  sortAscend = (e) => {
     const { name, value } = e.target;
     this.setState({ [name]: value });
     const sortingAs = this.state.users.sort(
@@ -66,7 +66,7 @@ class OmdbContainer extends Component {
     console.log(sortingAs)
   };
 
-  sortDescending = (e) => {
+  sortDescend = (e) => {
     const { name, value } = e.target;
     this.setState({ [name]: value });
     const sortingDes = this.state.users.sort((a, b) =>
@@ -87,8 +87,8 @@ class OmdbContainer extends Component {
           handleFormSubmit={this.handleFormSubmit}
         />{" "}
         <Filter
-          sortAscending={this.sortAscending}
-          sortDescending={this.sortDescending}
+          sortAscend={this.sortAscend}
+          sortDescend={this.sortDescend}
         />
         <br />
         <Card users={this.state.displayusers} />
