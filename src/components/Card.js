@@ -4,8 +4,9 @@ import Container from "./Container";
 
 function Card({users}) {
     return (
+      
     <Container>
-    <div className="card">
+    <div className="card mx-auto" style={{ width: '40rem' }}>
         {users.map(users => (
           <div key={users.login.uuid}>
             <div className="list-group-item shadow">
@@ -23,6 +24,9 @@ function Card({users}) {
         ))}
       </div>
       </Container>
+     
+
+      
       
     );
   };
